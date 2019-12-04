@@ -1,0 +1,191 @@
+/*pour que tous soit de la même proportion*/
+* {
+  box-sizing: border-box;
+  width: auto; /*pour que les images et les conteneurs se redimensionne à la taille d'écran*/
+}
+/*corps du texte avec image arriere plan rouge et jaune/ text aligne au centre*/
+body {
+  text-align: center;
+  background: content-box radial-gradient(crimson, skyblue); /*Pour trouver ces couleurs vu sur google*/
+}
+/*Police de text respecte*/
+h1,
+h2,
+h3 {
+  font-family: "Amatic SC", cursive;
+}
+a {
+  font-family: "Amatic SC", cursive;
+}
+/*Liste a puces menu*/
+ul {
+  font-size: 15px;
+  padding: 0px;
+  margin-top: 40px;
+}
+
+li {
+  display: inline;
+  margin-left: 35px;
+}
+/*Tous les titres h2 en rouge*/
+h2 {
+  color: Gold;
+}
+/*Cadre du tableau*/
+table {
+  border: medium solid #000123;
+  border-collapse: collapse;
+  margin: auto;
+  height: auto;
+}
+/*colonnes traits*/
+th {
+  border: solid #000000;
+}
+td {
+  border: solid #000000;
+}
+img {
+  width:100%;
+  height: auto;
+}
+
+/*CLASS*/
+/*Encadrement du titre en pointille*/
+.wild {
+  position: relative;
+  z-index: 4;
+  font-family: cursive;
+  color: yellow;
+  border-top: 3px dotted;
+  border-bottom: 3px dotted;
+}
+/*Onglet performences (placement du"laugh dream marvel at")*/
+.line {
+  display: inline-block;
+  align-items: flex-start;
+  padding: 30px;
+  padding-bottom: 20px;
+  width: 20%;
+  list-style: none;
+  border: 2px double #fff5ee;
+  border-radius: 10px;
+  background-color: #34ceeb;
+  margin: 10px;
+}
+/*Animation couleur rouge*/
+.line:hover {
+  transition: background-color .7s; /*retarder l'apparition de la couleur*/
+  background-color: red;
+}
+/*header en rouge*/
+.navigation {
+  background-image: url(https://whatnow.tv/wp-content/uploads/2019/04/circus-tricks-header-2.jpg);
+  overflow: hidden;
+  padding: 1px;
+  margin: -8px;
+}
+/*Précision de la barre de navigation avec ses liens direct en html avec animation*/
+.navigation a {
+  float: center;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  color: DeepSkyBlue;
+}
+/*ça modifie la couleur en pointant la souris dessus*/
+.navigation a:hover {
+  transition: color .5s;
+  background-color: #ddd;
+  color: black;
+}
+/*Placement du tableau dans la page*/
+.tableau {
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+/*Léger déplacement du cadre message vers la gauche pour être aligné*/
+.input {
+  margin-left: -3px;
+}
+/*Taille en boite de la même taille*/
+.formulaire {
+  box-sizing: border-box;
+}
+
+/*  IDENTIFIANTS id  */
+
+/*photo charlie chaplin grosseur et positionement*/
+#circuswild {
+  width: 46%;
+  border: 5px groove blue;
+  margin: 10px;
+  position: relative;
+  border-radius: 10px;
+  z-index: 2;
+}
+/*Arrière plan jusqu'en bas de la page*/
+#landscape {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+/*Titre performance position*/
+#performances {
+  padding: 10px;
+  min-height: 80%;
+}
+
+/*
+#footer {
+  background-color: grey;
+  margin: -8px;
+  padding: 1em;
+}*/
+
+/*Bouton de retour en haut de page*/
+#up {
+  background-color: grey;
+  padding: 5px;
+  text-decoration: none;
+  border: solid black;
+  color: white;
+}
+/*Aspect du bouton qui change quand on passe la souris dessus*/
+#up:hover {
+  transition: color .5s;
+  background-color: white;
+  border: solid;
+  color: black;
+}
+/*Taille de l'image du tigre et arrondi*/
+#tiger {
+  width: 30%;
+  border-radius: 10px;
+}
+#tiger:hover {
+  border: groove;
+}
+/*arrondi*/
+#magicien {
+  border-radius: 20px;
+  width:70%;
+}
+#magicien:hover {
+  border: groove;
+}
+/*Taille paragraphe performances*/
+#sizeabout {
+  font-size: 20px;
+}
+/*Petite marge pour placer le titre*/
+
+#contactus {
+  margin-bottom: 20px;
+}
