@@ -1,3 +1,5 @@
 # site
 
-Visitez on site sur https://bloodklash.github.io/site/
+Visitez mon site sur https://bloodklash.github.io/site/
+
+Découverte de HTML CSS
